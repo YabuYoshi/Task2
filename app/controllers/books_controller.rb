@@ -37,6 +37,9 @@ class BooksController < ApplicationController
     book.destroy
     redirect_to '/books'
   end
+  
+  def top
+  end
 
   private
   def book_params
